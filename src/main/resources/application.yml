@@ -1,0 +1,24 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://prash:Weblogic123@mycluster.kngtitw.mongodb.net/demo
+      database: demo
+  jpa:
+    hibernate:
+      ddl-auto: update
+  #Properties related to redis cache
+  cache:
+    type: redis
+    host: localhost
+    port: 6739
+    redis:
+      time-to-live: 60000
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
