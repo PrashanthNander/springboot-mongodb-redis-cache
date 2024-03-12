@@ -1,5 +1,6 @@
 package com.prash.mongodb.example.collection;
 
+import com.prash.mongodb.example.enums.TaskSeverity;
 import com.prash.mongodb.example.enums.TaskType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -21,7 +22,7 @@ public class Task implements Serializable {
     private String taskId;
     private String description;
     private TaskType taskType;
-    private String severity;
+    private TaskSeverity severity;
     private String assignee;
 
 }

@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://prash:Weblogic123@mycluster.kngtitw.mongodb.net/demo
+      uri: mongodb+srv://prash:****@mycluster.kngtitw.mongodb.net/demo
       database: demo
   jpa:
     hibernate:
